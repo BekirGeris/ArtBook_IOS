@@ -30,9 +30,7 @@
                             <constraint firstItem="Iop-9K-JFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gnx-dx-XJI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="4Yg-Cd-qm1">
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="Uie-RO-euR"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="4Yg-Cd-qm1"/>
                     <connections>
                         <outlet property="tableView" destination="Iop-9K-JFe" id="6X9-5Q-0fe"/>
                         <segue destination="fJ4-OS-Rcz" kind="show" identifier="toDetailsVC" id="5SH-ao-HVL"/>
@@ -129,7 +127,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
